@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
